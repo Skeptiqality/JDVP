@@ -1,8 +1,0 @@
-CREATE DATABASE IF NOT EXISTS quiz;
-USE quiz;
-CREATE TABLE IF NOT EXISTS country_quiz (
-    country_id INT AUTO_INCREMENT PRIMARY KEY,
-    country_name VARCHAR(255) NOT NULL,
-    capital VARCHAR(255) NOT NULL,
-    flag_img LONGBLOB NOT NULL
-);
