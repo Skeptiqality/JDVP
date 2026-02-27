@@ -48,12 +48,12 @@
                     <img src="<?php echo $tank_name['question_img']; ?>" alt="Question img">
                 </div>
                 
-                <div class="feedback" id="feedback"></div>
+                <div class="feedback" id="feedback">Question #</div>
 
                 <div class="quiz-choices">
                     <?php
                     foreach ($answers as $answer) {
-                        echo '<button data-answer="' . $answer . '">' . $answer . '</button>';
+                        echo '<button class="choices-btn" data-answer="' . $answer . '">' . $answer . '</button>';
                     }
                     ?>
                 </div>
